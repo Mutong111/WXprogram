@@ -1,0 +1,51 @@
+/* pages/list/list.wxss */
+.blue-group{
+  background: #1AADDD;
+  padding: 20rpx;
+}
+
+.blue-group .top-group{
+  height: 58rpx;
+  width: 100%;
+  display: flex;
+}
+.top-group  .search-group{
+  flex: 1;
+  display: flex;
+}
+.top-group  .search-group .search-input{
+  flex: 1;
+  background: rgb(249, 250, 249);
+  border-radius: 10px;
+  padding: 0 10rpx;
+  font-size: 30rpx;
+}
+.top-group  .more-group{
+flex-basis: 180rpx;
+display: flex;
+justify-content: space-evenly;
+}
+.top-group  .more-group .words{
+   padding: 5rpx 15rpx;
+  font-size: 30rpx;
+}
+.top-group  .more-group image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.list{
+  margin-top: 30rpx;
+   width: 375rpx;
+  height: 100px;
+  justify-content: space-around;
+  margin-bottom: 20rpx;
+}
+.list .listedmusic image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.list .listedmusic text{
+   padding: 5rpx 15rpx;
+   font-size: 35rpx;
+}
+

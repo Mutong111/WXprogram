@@ -1,0 +1,11 @@
+/* components/searchbar/searchbar.wxss */
+.searchbar{
+  background-color: #a84d3e;
+  padding: 20rpx;
+}
+.search-navigator{
+  width:100%;
+  height:60rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}

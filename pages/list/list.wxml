@@ -1,0 +1,17 @@
+<!--pages/list/list.wxml-->
+<searchbar isnavigator="{{true}}"></searchbar>    
+<view class="container">
+  
+  <view class='list'>
+    <view class='listedmusic'>
+      <image src='images/music.png'></image>
+      <text>    稻香-周杰伦</text>
+      <image src='images/music.png'></image>
+      <text>    青花瓷-周杰伦</text>
+      <image src='images/music.png'></image>
+      <text>    东风破-周杰伦</text>
+      <image src='images/music.png'></image>
+      <text>    告白气球-周杰伦</text>
+    </view>
+  </view>
+</view>

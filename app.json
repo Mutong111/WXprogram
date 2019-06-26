@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/music/music",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#a84d3e",
+    "navigationBarTitleText": "音乐俱乐部",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "color":"#8a8a8a",
+    "selectedcolor":"#1AAD16",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"images/tabbar/tabbar1.png",
+        "selectedIconPath":"images/tabbar/tabbar1_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "目录",
+        "iconPath": "images/tabbar/tabbar2.png",
+        "selectedIconPath": "images/tabbar/tabbar2_selected.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "歌单",
+        "iconPath": "images/tabbar/tabbar3.png",
+        "selectedIconPath": "images/tabbar/tabbar3_selected.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "音乐",
+        "iconPath": "images/tabbar/tabbar4.png",
+        "selectedIconPath": "images/tabbar/tabbar4_selected.png"
+      }
+    ]
+  }
+  
+}
