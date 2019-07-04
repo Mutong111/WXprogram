@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/music/music",
+    "pages/search/search",
+    "pages/comment/comment"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#a84d3e",
+    "navigationBarTitleText": "Music Club",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes":["audio"],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/tabbar1.png",
+        "selectedIconPath": "images/tabbar/tabbar1_selected.png"
+      },{
+        "pagePath": "pages/list/list",
+        "text": "搜索",
+        "iconPath": "images/tabbar/tabbar3.png",
+        "selectedIconPath": "images/tabbar/tabbar3_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "歌单",
+        "iconPath": "images/tabbar/tabbar2.png",
+        "selectedIconPath": "images/tabbar/tabbar2_selected.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "播放",
+        "iconPath": "images/tabbar/tabbar4.png",
+        "selectedIconPath": "images/tabbar/tabbar4_selected.png"
+      }
+    ]
+  }
+}
